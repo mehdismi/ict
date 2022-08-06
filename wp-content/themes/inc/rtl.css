@@ -1,0 +1,39 @@
+@font-face {font-family: "Yekan";src: url("fonts/WebYekan.eot");src: url("fonts/WebYekan.eot?#iefix") format("embedded-opentype"),url("fonts/WebYekan.woff") format("woff"),url("fonts/WebYekan.ttf") format("truetype"),url("fonts/WebYekan.svg#WebYekan") format("svg");}
+@font-face {font-family: mitra;font-style: normal;font-weight: bold;src: url("fonts/BMitraBold.woff") format("woff");}
+@font-face {font-family: mitra;font-style: normal;font-weight: normal;src: url("fonts/BMitra.woff") format("woff");}
+body, button, input[type="button"], input[type="reset"], input[type="submit"], textarea, a, h1, h2, h3, h4, h5, h6, span, p, .widget-title {font-family: Yekan;letter-spacing: 0;}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {font-family: Yekan;letter-spacing: 0;}
+.comment-metadata a, header .site-description, .site-description, .main-navigation, .main-navigation .nav-menu > li > a, .main-navigation ul ul li a, .header-bottom h1, .header-bottom h2, .home-header-bottom h1, .home-header-bottom h2, .header-bottom h3, .header-bottom h4, .home-header-bottom h3, .home-header-bottom h4 {font-family: Yekan;letter-spacing: 0;}
+.main-navigation a, body, button, input, select, textarea, span, .header-bottom h1, .header-bottom h2, .home-header-bottom h1, .home-header-bottom h2, .header-bottom h3, .header-bottom h4, .home-header-bottom h3, .home-header-bottom h4 {font-weight: 400;}
+.placid-social-icons {padding-right: initial;float: right;padding-left: 0;}
+.top-search {float: left;}
+@media screen and (min-width: 1024px) {.main-navigation ul {display: block;padding: 0;}}
+.main-navigation li:after {content: "/";position: absolute;top: 21px;right: initial;left: -7px;}
+.main-navigation ul li.menu-item-has-children > a:after {right: 10px;left: initial;}
+.main-navigation ul ul a {color: #222;height: auto;padding: 5px 15px;text-align: right;font-size: 16px;}
+.main-navigation ul ul ul {right: 100%;top: 0px;left: initial;}
+.main-navigation ul li.menu-item-has-children > ul >li.menu-item-has-children > a:after {float: left;transform: rotateY(180deg);}
+.main-navigation ul ul {right: 0;left: initial;}
+.placid-social-icons li a {float: right;height: 27px;width: 27px;}
+.has-post-thumbnail .post-thumb img, .archive .site-content .post-thumb img {width: 50%;float: right;padding-left: 25px;padding-right: 0;}
+.sticky::before {right: 30px;left: initial;top: 30px;}
+.has-post-thumbnail .entry-header {float: right;text-align: right !important;}
+#primary {width: 70%;padding-left: 15px;padding-right: 15px;}
+#secondary .widget_search .top-section-search .search-subimit {left: 0;right: initial;}
+.placid-social-icons ul {padding: 0;}
+section.widget.placid-social-icons {padding: 15px;}
+#secondary .widget.placid-social-icons ul li a {color: transparent;}
+#secondary .widget.placid-social-icons ul li a:before {margin-right: 4px;}
+.entry-header .entry-title a:after {right: 0;left: initial;}
+#secondary .widget_categories ul li a::after, #secondary .widget_archive ul li a::after, #secondary .widget_pages ul li a::after, #secondary .widget_recent_entries ul li a::after {right: 5px;left: initial;content: "";}
+#secondary .widget_categories ul li a, #secondary .widget_pages ul li a, #secondary .widget_recent_comments ul li a, #secondary .widget_recent_entries ul li a, #secondary .widget_archive ul li a {padding-right: 25px;padding-left: 0;}
+.footer-sidebar-1 ul {text-align: right;}
+.instagram-pics li {float: right;width: 33.3%;}
+.instagram-pics li a {padding: 0 !important;}
+.single .entry-header, .page .entry-header, .single .entry-content, .page .entry-content {text-align: right;}
+.single-post .has-post-thumbnail .post-thumb img {width: 100% !important;padding-right: 0;padding-left: 0;}
+#comments li > ol {margin-bottom: 0;margin-left: 0;}
+.footer-columns .widget .widget-title {text-align: right;}
+@media (max-width: 1023px) {.main-navigation ul {text-align: right;width: 100%;padding: 5px 30px;}}
+@media (max-width: 1023px) {.main-navigation ul ul.sub-menu {padding-right: 15px;padding-left: 0;right: 0;left: initial;}}
+@media (max-width: 992px) {#primary, .footer-sidebar-1, #secondary {width: 100%;float: none;}}
